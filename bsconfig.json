@@ -1,0 +1,30 @@
+{
+  "name": "bucklescript-postgres",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "warnings": {
+    "error": "+A-27-6",
+    "warning": "+A-6"
+  },
+  "namespace": true,
+  "refmt": 3,
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest"
+  ],
+  "bs-dependencies": []
+}
